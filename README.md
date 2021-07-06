@@ -10,7 +10,7 @@ Overview of the audio files:
 5. *2021_06_30_without_shoes_orig.wav* Original sound pressure for excitation with footstep without shoes
 6. *2021_06_30_without_shoes_aur.wav* Auralized sound pressure for excitation with footstep without shoes
 
-Overview of the main scripts:
+Overview of the main scripts inside the zipped file titled *Matlab_scripts.m* :
 1.  *acc_mb_refine_rawdata_nofilt_increased_rangem.m* This script reads and processes the raw acceleration data for medisin ball
 2.  *analyze_forcesig.m* This script reads force signal of medisin ball and creates equilization filter of a modal of a force signal. This script is created by Peter Svennson.
 3.  *alc_floor_naturalfreq.m*  This script calculates the natural frequency of the main floor and floating floor.
