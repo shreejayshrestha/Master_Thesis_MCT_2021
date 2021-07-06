@@ -1,6 +1,14 @@
 # Master_Thesis_MCT_2021
 
-This repository contains some digital files associated with my master thesis in *Music Communication and Technology*, titled, **Study of Low Frequency Impact Sound Transmission For Auralization**. It includes the audio files of original(stated as *orig* in the filename) and auralized(stated as *aur* in the filename) sound pressure in the receiving room (one listening position at a corner and 5 source position on the ceiling) for the three sound sources used in my master thesis. Similarly, it contains my original scripts to read and process raw data. The scripts calls many functions owned by Peter Svennson, which are not included here, if interested, please contact me or <a href="https://www.ntnu.edu/employees/peter.svensson">Peter Svennson</a>.
+This repository contains some digital files associated with my master thesis in *Music Communication and Technology*, titled, **Study of Low Frequency Impact Sound Transmission For Auralization**. It includes the audio files of originaland auralized sound pressure in the receiving room (one listening position at a corner and 5 source position on the ceiling) for the three sound sources used in my master thesis. Similarly, it contains my original scripts to read and process raw data. The scripts calls many functions owned by Peter Svennson, which are not included here, if interested, please contact me or <a href="https://www.ntnu.edu/employees/peter.svensson">Peter Svennson</a>.
+
+Overview of the audio files:
+1. *2021_06_30_mb_orig.wav* Original sound pressure for excitation with medisin ball
+2. *2021_06_30_mb_aur.wav* Auralized sound pressure for excitation with medisin ball
+3. *2021_06_30_with_shoes_orig.wav* Original sound pressure for excitation with footstep with shoes
+4. *2021_06_30_with_shoes_aur.wav* Auralized sound pressure for excitation with footstep with shoes
+5. *2021_06_30_without_shoes_orig.wav* Original sound pressure for excitation with footstep without shoes
+6. *2021_06_30_without_shoes_aur.wav* Auralized sound pressure for excitation with footstep without shoes
 
 Overview of the main scripts:
 1.  *acc_mb_refine_rawdata_nofilt_increased_rangem.m* This script reads and processes the raw acceleration data for medisin ball
